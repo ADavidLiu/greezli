@@ -1,0 +1,54 @@
+.hero {
+    background-color: $color-tertiary-lgt;
+    padding: 8.583rem 0 2.833rem 0;
+    background-image: url("../images/hero-silhouette-bg.svg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right bottom;
+    position: relative;
+    @include atMedium {
+        padding: 10.875rem 0 2.6875rem 0;
+    }
+
+    &__img {
+        width: 100%;
+        margin-bottom: 2.083rem;
+        filter: drop-shadow(0 7px 3px $color-tertiary-med);
+        @include atMedium {
+            margin-bottom: 0;
+        }
+    }
+
+    &__text {
+        margin: 2.083rem 0 2.75rem 0;
+        @include atMedium {
+            margin: 1.5625rem 0 2.5rem 0;
+        }
+    }
+
+    &__tags {
+        position: absolute;
+        bottom: 3.125rem;
+        right: 2.1875rem;
+        transform-origin: 100% 50%;
+        transform: rotate(90deg) translateX(-100%) scale(-1);
+        align-items: center;
+        justify-content: flex-start;
+        display: none;
+        @include atMedium {
+            display: flex;
+        }
+
+        li {
+            font-size: 1.083rem;
+            color: rgba($color-gray, .62);
+            @include atMedium {
+                font-size: .8125rem;
+            }
+
+            & + li {
+                margin-left: 1.875rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.section-marketplace {
+    padding-top: 2.5rem;
+    position: relative;
+    overflow: hidden;
+    @include atMedium {
+        padding-top: 3.75rem;
+    }
+
+    &__leaves {
+        position: absolute;
+        bottom: -2.1875rem;
+        left: -3rem;
+        pointer-events: none;
+        user-select: none;
+        width: 11.25rem;
+        height: 100%;
+        @include atMedium {
+            left: 48%;
+        }
+        @include atLarge {
+            left: 55.5%;
+        }
+        @include atExtralarge {
+            left: 65%;
+        }
+        @include atHuge {
+            left: 59%;
+        }
+
+        img {
+            position: absolute;
+            max-height: 100%;
+            bottom: 0;
+
+            &:first-child {
+                left: 0;
+            }
+
+            &:last-child {
+                right: 2rem;
+                @include atMedium {
+                    right: 0;
+                }
+            }
+        }
+    }
+
+    &__title {
+        position: relative;
+        @include atMedium {
+            display: inline-block;
+        }
+
+        h2 {
+            position: relative;
+            z-index: 1;
+        }
+        
+        img {
+            width: 10rem;
+            display: block;
+            margin: 0 auto .833rem auto;
+            pointer-events: none;
+            user-select: none;
+            @include atMedium {
+                width: 7.5rem;
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: translate(90%, -40%);
+            }
+        }
+    }
+}

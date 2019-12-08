@@ -1,0 +1,90 @@
+.partners {
+    padding: 2.5rem 0;
+    @include atMedium {
+        padding: 3.125rem 0 3.75rem 0;
+    }
+    
+    &__intro {
+        text-align: left;
+        @include atMedium {
+            text-align: center;
+        }
+    }
+
+    &__text {
+        margin: 1.667rem 0;
+        @include atMedium {
+            margin: 1.5625rem 0 2.8125rem 0;
+        }
+    }
+
+    &__logos {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: -.833rem;
+        @include atMedium {
+            flex-wrap: nowrap;
+        }
+
+        &-item {
+            height: 4.167rem;
+            width: calc(50% - 1.667rem);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: .833rem;
+            transition: all .25s;
+            backface-visibility: hidden;
+            @include atMedium {
+                height: 3.333rem;
+                width: 20%;
+                margin: 0;
+            }
+            @include atLarge {
+                height: 4.375rem;
+            }
+
+            img {
+                max-height: 100%;
+            }
+
+            &:first-child {
+                height: 2.833rem;
+                @include atMedium {
+                    height: 2.75rem;
+                }
+            }
+
+            &:nth-child(2) {
+                height: 4.167rem;
+                @include atMedium {
+                    height: 3.75rem;
+                }
+            }
+
+            &:nth-child(3) {
+                height: 2.833rem;
+                @include atMedium {
+                    height: 2.875rem;
+                }
+            }
+
+            &:nth-child(4) {
+                height: 3.333rem;
+                @include atMedium {
+                    height: 3.125rem;
+                }
+            }
+
+            &:last-child {
+                height: 1.4167rem;
+                @include atMedium {
+                    height: 1.3125rem;
+                }
+            }
+        }
+    }
+}

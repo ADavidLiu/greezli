@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="156px" viewBox="0 0 64 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.7746464,15.0946244 C29.3696401,26.4718254 42.7995925,15.0533934 41.6250447,32.0611675 C39.5693485,61.8216804 60.1264463,43.2596631 51.0293647,72.0725606 C41.932283,100.885458 67.6283765,85.9108492 57.2369037,110.964473 C46.843532,136.017146 60.3133266,165.899422 44.6776923,153.619465 C44.6776923,153.619465 30.9088011,123.371901 16.7097803,114.013297 C2.51170911,104.654693 25.2164693,91.2067448 20.7746464,78.4949106 C14.3217546,60.0326432 -1.22557494,63.1012734 9.98437818,43.2596631 C21.1943313,23.4199553 -11.3151025,9.19369765 5.87393543,0.958544689 C10.9300933,-1.46339125 15.7422264,6.58790337 20.7746464,15.0946244 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_LANDING_PAGE_desktop" transform="translate(-986.000000, -774.000000)">
+            <g id="NOTRE_MISSION" transform="translate(0.000000, 680.000000)">
+                <g id="Group-16-+-Group-6-Mask">
+                    <g id="Group-5" transform="translate(1018.965949, 171.675311) rotate(-2.000000) translate(-1018.965949, -171.675311) translate(988.965949, 93.175311)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Clip-8" stroke="#003362" xlink:href="#path-1"></use>
+                        <path d="M25.0198741,30.7044104 C45.8093587,75.7882981 45.500992,157.740595 48.9732809,166.18621" id="Path-7" stroke="#003362" stroke-linecap="round" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

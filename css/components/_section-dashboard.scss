@@ -1,0 +1,53 @@
+.section-dashboard {
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -6rem;
+        height: 18.333rem;
+        width: 14.167rem;
+        background-image: url("../images/i-dashboard.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        pointer-events: none;
+        user-select: none;
+        @include atMedium {
+            height: 13.75rem;
+            width: 10.625rem;
+            top: 3.75rem;
+            right: auto;
+            left: -2rem;
+        }
+    }
+
+    &__leaves {
+        display: none;
+        @include atMedium {
+            display: block;
+            position: absolute;
+            bottom: -2.1875rem;
+            right: 1.5rem;
+            height: 17.5rem;
+            width: 12.8125rem;
+        }
+
+        img {
+            bottom: 0;
+            position: absolute;
+
+            &:first-child {
+                left: 0;
+            }
+
+            &:last-child {
+                right: 0;
+                @include atHuge {
+                    right: 2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,253 @@
+.contact {
+    padding: 2.667rem 0 9.75rem 0;
+    background-color: $color-tertiary-lgt;
+    background-image: url("../images/footer-silhouette-bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 80% auto;
+    position: relative;
+    overflow: hidden;
+    @include atMedium {
+        padding: 4.375rem 0 6.25rem 0;
+        background-image: url("../images/footer-silhouette-bg.svg");
+        background-position: left bottom;
+        background-size: auto 100%;
+    }
+
+    &:before,
+    &:after {
+        pointer-events: none;
+        user-select: none;
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+        width: 29.0625rem;
+        height: 7.375rem;
+        background-image: url("../images/contact-products-mobile.svg");
+        background-position: left bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+        @include atMedium {
+            left: 4.625rem;
+            bottom: -3px;
+            background-position: center bottom;
+            background-image: url("../images/contact-products-left.svg");
+        }
+    }
+
+    &:after {
+        @include atMedium {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 1.875rem;
+            height: 5.375rem;
+            width: 2.5625rem;
+            background-image: url("../images/contact-products-right.svg");
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: contain;
+        }
+    }
+
+    &__leaves {
+        &-left,
+        &-right {
+            position: absolute;
+            bottom: 0;
+            height: 60%;
+            pointer-events: none;
+            user-select: none;
+
+            img {
+                max-height: 100%;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+
+        &-left {
+            width: 90%;
+            right: 0;
+            left: auto;
+            bottom: -2.1875rem;
+            @include atMedium {
+                width: 20rem;
+                left: 9.75rem;
+                right: auto;
+            }
+
+            img {
+                &:first-child {
+                    left: 0;
+                }
+
+                &:nth-child(2) {
+                    right: 2.5rem;
+                }
+
+                &:last-child {
+                    right: 0;
+                }
+            }
+        }
+
+        &-right {
+            width: 8.75rem;
+            right: 0;
+            bottom: -3.125rem;
+            display: none;
+            @include atMedium {
+                right: 3.75rem;
+                display: block;
+            }
+
+            img {
+                &:first-child {
+                    right: 3.4375rem;
+                }
+
+                &:last-child {
+                    right: 0;
+                }
+            }
+        }
+    }
+
+    &__content {
+        position: relative;
+        z-index: 1;
+    }
+
+    &__copy {
+        margin-bottom: 1.667rem;
+        @include atMedium {
+            margin-bottom: 0;
+            padding-top: 1.625rem;
+        }
+    }
+
+    &__text {
+        margin-top: 2.083rem;
+        @include atMedium {
+            margin-top: 1.5625rem;
+        }
+    }
+
+    &__form {
+        padding: 2.5rem 1.667rem;
+        background-color: $color-white;
+        border-radius: .4167rem;
+        box-shadow: 0 7px 24px 0 $color-tertiary-lgt-2;
+        @include atMedium {
+            padding: 1.875rem 2.5rem;
+            border-radius: .3125rem;
+        }
+
+        input,
+        textarea {
+            appearance: none;
+            resize: none;
+            border: 0;
+            width: 100%;
+            display: block;
+            padding: 0 .4167rem .833rem .4167rem;
+            border-bottom: 1px solid $color-primary;
+            color: $color-primary-drk-2;
+            line-height: 1;
+            font-family: $font-main;
+            transition: all .25s;
+            backface-visibility: hidden;
+            @extend .p;
+            @extend .p--md;
+            @include atMedium {
+                padding: 0 .3125rem .625rem .3125rem;
+            }
+
+            &::placeholder {
+                color: rgba($color-primary-drk-2, .29);
+            }
+
+            &:focus {
+                border-color: $color-tertiary;
+            }
+
+            & + input,
+            & + textarea {
+                margin-top: 1.833rem;
+                @include atMedium {
+                    margin-top: 1.375rem;
+                }
+            }
+        }
+
+        textarea {
+            border: 1px solid $color-primary;
+            padding: .9167rem 1.167rem;
+            margin-top: 3.333rem !important;
+            height: 9.583rem;
+            @include atMedium {
+                padding: .6875rem .875rem;
+                margin-top: 2.5rem !important;
+                height: 7.1875rem;
+            }
+        }
+
+        input[type="checkbox"] {
+            border: 0;
+            padding: 0;
+            height: 1.083rem;
+            width: 1.083rem;
+            min-height: 1.083rem;
+            min-width: 1.083rem;
+            border-radius: 50%;
+            background-color: rgba($color-primary, .13);
+            cursor: pointer;
+            transform: translateY(.25rem);
+            @include atMedium {
+                height: .8125rem;
+                width: .8125rem;
+                min-height: .8125rem;
+                min-width: .8125rem;
+                transform: translateY(.125rem);
+            }
+
+            &:checked {
+                background-color: $color-primary;
+                box-shadow: inset 0 0 0 4px $color-primary-lgt-2;
+                @include atMedium {
+                    box-shadow: inset 0 0 0 3px $color-primary-lgt-2;
+                }
+            }
+        }
+
+        label {
+            cursor: pointer;
+            margin: 0 0 0 8px;
+            color: $color-gray;
+            @extend .p;
+            @extend .p--sm;
+        }
+
+        button[type="submit"] {
+            padding-left: 1.667rem;
+            padding-right: 1.667rem;
+            @include atMedium {
+                padding-left: 1.25rem;
+                padding-right: 1.25rem;
+            }
+
+            span {
+                transform: translateY(2px);
+                @include atMedium {
+                    transform: translateY(1px);
+                }
+            }
+        }
+    }
+}

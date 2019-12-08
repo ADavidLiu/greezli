@@ -1,0 +1,113 @@
+.footer {
+    padding: 2.5rem 0 3.333rem 0;
+    background-color: $color-primary-drk-2;
+    @include atMedium {
+        padding: 3.75rem 0 4.125rem 0;
+    }
+    @include atHuge {
+        padding-left: 4.375rem;
+        padding-right: 4.375rem;
+    }
+
+    .row {
+        margin-bottom: -2.5rem;
+        @include atMedium {
+            margin-bottom: 0;
+        }
+
+        [class^="col-"] {
+            margin-bottom: 2.5rem;
+            @include atMedium {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__logo {
+        width: 6.083rem;
+        display: block;
+        margin: 0 auto;
+        @include atMedium {
+            margin: 0;
+            width: 4.5625rem;
+        }
+
+        &-img {
+            width: 100%;
+        }
+    }
+
+    &__social {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        @include atMedium {
+            display: inline-flex;
+            justify-content: flex-start;
+        }
+
+        a {
+            margin-left: 2.5rem;
+            background-color: $color-secondary;
+            height: 2.5rem;
+            width: 2.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .25s;
+            backface-visibility: hidden;
+            @include atMedium {
+                margin-left: 1.5625rem;
+                height: 1.875rem;
+                width: 1.875rem;
+            }
+
+            img {
+                height: 50%;
+            }
+
+            &:hover {
+                background-color: $color-primary;
+            }
+        }
+
+        p {
+            color: $color-white;
+            flex: 1;
+        }
+    }
+
+    &__incubators {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__incubator-logo {
+        &:first-child {
+            height: 3.333rem;
+            @include atMedium {
+                height: 2.5rem;
+            }
+        }
+
+        &:last-child {
+            height: 2.167rem;
+            @include atMedium {
+                height: 1.625rem;
+            }
+        }
+
+        img {
+            height: 100%;
+        }
+
+        & + & {
+            margin-left: 1rem;
+            @include atMedium {
+                margin-left: .75rem;
+            }
+        }
+    }
+}

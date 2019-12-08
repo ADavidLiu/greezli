@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="113px" height="279px" viewBox="0 0 113 279" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>_leaf</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M35.9953251,26.1958916 C51.4452992,46.6470365 75.5863776,26.1217767 73.4750632,56.6941864 C69.7798363,110.190346 106.732351,76.8240985 90.3798459,128.616867 C74.0273411,180.409636 120.217483,153.491952 101.538239,198.52722 C82.8555813,243.560778 107.068278,297.275813 78.9623654,275.201914 C78.9623654,275.201914 54.2120257,220.830254 28.6885046,204.007648 C3.16669036,187.185043 43.9797461,163.011616 35.9953251,140.161395 C24.3958969,106.974453 -3.55128335,112.490485 16.5992242,76.8240985 C36.7497317,41.1611321 -21.6877642,15.5886512 9.21047718,0.785510585 C18.2991992,-3.56805253 26.9492731,10.9045926 35.9953251,26.1958916 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_LANDING_PAGE_desktop" transform="translate(-59.000000, -1631.000000)">
+            <g id="ESHOP-B2B" transform="translate(0.000000, 1496.000000)">
+                <g id="_leaf" transform="translate(117.500000, 274.500000) rotate(-2.000000) translate(-117.500000, -274.500000) translate(64.000000, 134.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Clip-8" stroke="#8DD393" xlink:href="#path-1"></use>
+                    <path d="M36.3321274,45.657787 C80.9621489,92.4407675 59.5015493,127.268603 69.7018827,188.335543 C77.2794325,233.700508 99.826452,266.656588 106.068082,281.838048" id="Path-7" stroke="#8DD393" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="276px" viewBox="0 0 109 276" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>_leaf</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M43.0987927,24.7639919 C61.5977291,44.097252 90.5029085,24.6939282 87.9749385,53.5952123 C83.5504801,104.167206 127.795358,72.6247986 108.215782,121.586511 C88.6362052,170.548223 143.941702,145.101893 121.576218,187.675478 C99.2066472,230.247446 128.197579,281.02635 94.5451277,260.159038 C94.5451277,260.159038 64.9104529,208.7594 34.3500137,192.856339 C3.79161824,176.953277 52.6588926,154.1012 43.0987927,132.5 C29.2102849,101.127098 -4.25210842,106.341616 19.8749843,72.6247986 C44.002077,38.9112139 -25.967718,14.7365563 11.0281111,0.742573609 C21.9104395,-3.37301838 32.267555,10.3085341 43.0987927,24.7639919 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_LANDING_PAGE_desktop" transform="translate(-759.000000, -2213.000000)">
+            <g id="MARKETPLACE-B2B" transform="translate(0.000000, 2040.000000)">
+                <g id="_leaf-+-_leaf-Mask">
+                    <g id="_leaf" transform="translate(808.174369, 311.251068) rotate(7.000000) translate(-808.174369, -311.251068) translate(744.674369, 178.751068)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Clip-8" stroke="#0083FF" xlink:href="#path-1"></use>
+                        <path d="M40.460177,52.358871 C94.2523467,96.6420845 71.9976638,119.758252 84.2920354,177.562187 C93.425189,220.503154 120.600912,251.698284 128.123894,266.068548" id="Path-7" stroke="#0083FF" stroke-linecap="round" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

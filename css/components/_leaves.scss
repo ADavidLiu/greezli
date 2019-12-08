@@ -1,0 +1,27 @@
+.leaves {
+    img {
+        transform-origin: 50% 100%;
+        animation: swing ease-in-out 1s infinite alternate;
+
+        &:first-child {
+            animation-duration: 2.5s;
+        }
+
+        &:nth-child(2) {
+            animation-duration: 2s;
+        }
+
+        &:last-child {
+            animation-duration: 1.5s;
+        }
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(3deg)
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}

@@ -1,0 +1,48 @@
+// Color
+.u-color {
+    &-white {
+        color: $color-white;
+    }
+
+    &-primary {
+        color: $color-primary;
+    }
+    
+    &-secondary {
+        color: $color-secondary;
+    }
+    
+    &-tertiary {
+        color: $color-tertiary;
+    }
+
+    &-gray {
+        &-lgt {
+            color: $color-gray-lgt;
+        }
+    }
+}
+
+
+// Background
+.u-bg {
+    &-primary {
+        background-color: $color-primary-lgt;
+    }
+
+    &-secondary {
+        background-color: $color-secondary-lgt;
+    }
+
+    &-tertiary {
+        background-color: $color-tertiary-lgt;
+    }
+}
+
+
+// Font weight
+.u-weight {
+    &-med {
+        font-weight: 500;
+    }
+}

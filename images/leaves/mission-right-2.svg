@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="250px" viewBox="0 0 96 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M60.1397961,43.7573382 C54.0800793,64.2142437 -7.30078874,52.6824478 18.4650423,103.903644 C44.2270222,155.126765 -14.1191736,121.035773 3.3090109,165.734477 C20.7371954,210.431256 4.82442148,258.237192 23.7680166,246.079715 C42.7096861,233.918387 34.4124761,177.630131 54.1108882,170.944 C73.8131513,164.254018 77.0288256,156.455135 57.5229689,138.271861 C38.0151867,120.088587 108.636786,102.036224 91.2066758,65.3212192 C73.7804169,28.6081391 94.1431449,6.25878694 77.5679806,0.575671462 C63.2226072,-4.3431497 66.203364,23.3023579 60.1397961,43.7573382 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_LANDING_PAGE_desktop" transform="translate(-1073.000000, -691.000000)">
+            <g id="NOTRE_MISSION" transform="translate(0.000000, 680.000000)">
+                <g id="Group-16-+-Group-6-Mask">
+                    <g id="Group-6" transform="translate(1074.000000, 12.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Clip-18" stroke="#0083FF" stroke-width="2" xlink:href="#path-1"></use>
+                        <path d="M25.6147295,243 C23.1231799,193.276516 26.9425138,112.800029 61,72" id="Path-3" stroke="#0083FF" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

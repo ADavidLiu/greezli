@@ -1,0 +1,67 @@
+.section-eshop {
+    position: relative;
+    
+    &__leaves-wrapper {
+        position: relative;
+    }
+
+    &__leaves {
+        display: none;
+        @include atMedium {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate(-70%, -50%);
+        }
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 7.667rem;
+        width: 5.833rem;
+        background-image: url("../images/shopping-bag.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom;
+        pointer-events: none;
+        user-select: none;
+        @include atMedium {
+            height: 7.375rem;
+            width: 5.625rem;
+            right: 5.4375rem;
+        }
+    }
+
+    .feature {
+        &__copy {
+            position: relative;
+
+            &:before {
+                content: "";
+                position: absolute;
+                top: -1rem;
+                right: -2rem;
+                background-image: url("../images/i-shop.svg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                height: 8rem;
+                width: 9.25rem;
+                pointer-events: none;
+                user-select: none;
+                @include atMedium {
+                    height: 7.75rem;
+                    width: 8.875rem;
+                    right: auto;
+                    top: -1.4375rem;
+                    left: -3.5rem;
+                    transform: translateY(-100%);
+                }
+            }
+        }
+    }
+}
